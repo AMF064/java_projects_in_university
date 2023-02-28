@@ -5,7 +5,7 @@ public class PrimesProduct {
         int num = 1;
         for(int i = 1; i <= 10 ; i++){      //Go through the numbers from 1 to 10
             int j;
-            for(j = 2 ; j <= i ; j++){      //Find a number between 2 and i which is divisible by i
+            for(j = 2 ; j <= i/2 ; j++){      //Find a number between 2 and i which is divisible by i
                 if (i % j == 0)
                 break;
             }
